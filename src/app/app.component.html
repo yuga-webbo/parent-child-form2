@@ -1,0 +1,4 @@
+<form [formGroup]="form">
+  <app-child [form]="form"></app-child>
+  <pre>{{form.value | json}}</pre>
+</form>
